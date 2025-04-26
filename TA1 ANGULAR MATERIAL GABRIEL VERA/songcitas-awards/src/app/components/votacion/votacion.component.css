@@ -1,0 +1,148 @@
+.contTituloPrincipal {
+    background: linear-gradient(90deg, #cba7e1, #e1c9f0);
+    padding: 2rem 0;
+    text-align: center;
+    border-bottom: 5px solid purple;
+  }
+  
+  .contTituloPrincipal h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 4rem;
+    color: #4b0082;
+    letter-spacing: 2px;
+    margin: 0;
+  }
+  
+  /* Contenedor de canciones en formato GRID */
+  .contenedor-canciones {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding: 3rem;
+    background-color: #0d0d0d;
+    justify-items: center;
+  }
+  
+  /* Tarjeta de canción */
+  .card-cancion {
+    background: linear-gradient(145deg, #d3c1dd, #f0e4f7);
+    border: 2px solid #c77dff;
+    padding: 1.5rem;
+    width: 320px;
+    border-radius: 20px;
+    box-shadow: 0px 8px 16px rgba(128, 0, 128, 0.4);
+    transition: all 0.4s ease;
+    overflow: hidden;
+  }
+  
+  /* Hover efecto */
+  .card-cancion:hover {
+    transform: translateY(-10px) scale(1.03);
+    box-shadow: 0px 12px 24px rgba(128, 0, 128, 0.6);
+  }
+  
+  /* Imagen */
+  .card-cancion img {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-bottom: 1rem;
+    transition: transform 0.4s;
+  }
+  
+  /* Imagen zoom al pasar mouse */
+  .card-cancion:hover img {
+    transform: scale(1.05);
+  }
+  
+  /* Título de la canción */
+  .card-cancion mat-card-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4rem;
+    color: #6a0dad;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  /* Texto dentro de la tarjeta */
+  .card-cancion p {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    margin: 0.3rem 0;
+  }
+  
+  /* Botón Votar */
+  .btnVotar {
+    display: flex;        
+    align-items: center;    
+    justify-content: center; 
+    width: 100%;
+    margin-top: 1rem;
+    padding: 0.7rem;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background-color: #6a0dad;
+    border: none;
+    border-radius: 10px;
+    font-size: large;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    gap: 8px;   
+  }
+  
+  /* Botón efecto hover */
+  .card-cancion button:hover {
+    background-color: #8a2be2;
+    transform: scale(1.05);
+  }
+  
+  /* Estado activo */
+  .activa {
+    border: 2px solid #8a2be2;
+    box-shadow: 0px 6px 20px rgba(170, 136, 204, 0.8);
+  }
+  /* Para pantallas medianas: Tablets (2 columnas) */
+@media (max-width: 1024px) {
+  .contenedor-canciones {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 2rem;
+    gap: 20px;
+  }
+
+  .card-cancion {
+    width: 280px;
+  }
+
+  .contTituloPrincipal h1 {
+    font-size: 3rem;
+  }
+}
+
+/* Para pantallas pequeñas: Celulares (1 columna) */
+@media (max-width: 600px) {
+  .contenedor-canciones {
+    grid-template-columns: 1fr;
+    padding: 1rem;
+    gap: 15px;
+  }
+
+  .card-cancion {
+    width: 90%;
+  }
+
+  .contTituloPrincipal h1 {
+    font-size: 2.5rem;
+  }
+
+  .card-cancion img {
+    height: 200px;
+  }
+
+  .card-cancion button {
+    font-size: 1rem;
+    padding: 0.6rem;
+  }
+}

@@ -1,0 +1,34 @@
+<!-- Lista de las canciones -->
+<div class="contTituloPrincipal">
+    <h1>Canciones nominadas en los Songcitas Awards</h1>
+</div> 
+
+<!-- Lista de las canciones -->
+@if (canciones.length === 0) {
+    <p>No hay canciones para mostrar</p>
+  }
+  @else {
+    <div class="contenedor-canciones">
+      @for (song of canciones; track $index) {
+        <mat-card class="card-cancion" (mouseenter)="mostrarInfo(song)">
+          <!--Este metodo reiniciarVotos funciona cuando le de doble clic al titulo de la cancion-->
+            <mat-card-title (dblclick)="reiniciarVotos(song)">
+            {{ song.titulo | uppercase }}
+          </mat-card-title>
+          <mat-card-content>
+            <img [src]="song.portada" [alt]="song.titulo" #portada (mouseenter)="activar(portada)" (mouseleave)="desactivar(portada)">
+            <p><strong>Artista:</strong> {{ song.artista }}</p>
+            <p><strong>Duración:</strong> {{ song.duracion | duracion }}</p>
+            <p><strong>Género:</strong> {{ song.genero }}</p>
+            <p><strong>Votos:</strong> {{ song.votos }}</p>
+          </mat-card-content>
+          <mat-card-actions>
+            <button class="btnVotar" (click)="votar(song)"><mat-icon>favorite</mat-icon>Votar</button>
+          </mat-card-actions>
+        </mat-card>
+      }
+    </div>
+}
+
+
+

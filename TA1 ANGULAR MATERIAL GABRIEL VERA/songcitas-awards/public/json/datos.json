@@ -1,0 +1,123 @@
+[
+    {
+      "id": 1,
+      "titulo": "Silver Lining",
+      "artista": "Laufey",
+      "duracion": 195,
+      "genero": "Pop/Jazz/Balada",
+      "portada":"https://akamai.sscdn.co/uploadfile/letras/fotos/f/6/d/9/f6d9324374d6d3532490f745f2d6bf6c.jpg",
+      "votos": 0,
+      "yaVotado": false
+    },
+    {
+      "id": 2,
+      "titulo": "Memories",
+      "artista": "Conan Gray",
+      "duracion": 210,
+      "genero": "Pop/Balada",
+      "portada":"https://akamai.sscdn.co/uploadfile/letras/fotos/a/b/5/6/ab568214fcb89739534342cb5412ccd8.jpg",
+      "votos": 0,
+      "yaVotado": false
+    },
+    {
+      "id": 3,
+      "titulo": "Enchanted",
+      "artista": "Taylor Swift",
+      "duracion": 185,
+      "genero": "Pop/Balada",
+      "portada":"https://images.genius.com/5f79b2ea5ee17883c316d9ec446644bf.1000x1000x1.jpg",
+      "votos": 0,
+      "yaVotado": false
+    },
+    {
+      "id": 4,
+      "titulo": "Drivers License",
+      "artista": "Olivia Rodrigo",
+      "duracion": 200,
+      "genero": "Pop/Balada",
+      "portada":"https://www.nosotras.com.mx/wp-content/uploads/2024/02/Olivia-Rodrigo-1.jpg",
+      "votos": 0,
+      "yaVotado": false
+    },
+    {
+      "id": 5,
+      "titulo": "Midnigth Walk",
+      "artista": "D.ear",
+      "duracion": 205,
+      "genero": "R&B/Soul",
+      "portada":"https://cloudfront-us-east-1.images.arcpublishing.com/eluniverso/EMRXCGPNFFHRTBKXK6CJA2KDLA.jpg",
+      "votos": 0,
+      "yaVotado": false
+    },
+    {
+      "id": 6,
+      "titulo": "Supermercado",
+      "artista": "Mon Laferte",
+      "duracion": 175,
+      "genero": "Balada",
+      "portada":"https://akamai.sscdn.co/uploadfile/letras/albuns/6/3/8/e/01649351908.jpg",
+      "votos": 0,
+      "yaVotado": false
+    },
+    {
+      "id": 7,
+      "titulo": "Una cancion de amor para la pulga",
+      "artista": "Camilo",
+      "duracion": 198,
+      "genero": "Balada",
+      "portada":"https://i.ytimg.com/vi/tytgnWmVi4E/maxresdefault.jpg",
+      "votos": 0,
+      "yaVotado": false
+    },
+    {
+      "id": 8,
+      "titulo": "WILDFLOWER ",
+      "artista": "Billie Eilish",
+      "duracion": 190,
+      "genero": "Balada",
+      "portada":"https://media.vogue.es/photos/609d3714fae5608e730970ed/4:3/w_1999,h_1499,c_limit/Billie-Eilish-Happier-Than-Ever.jpeg",
+      "votos": 0,
+      "yaVotado": false
+    },
+    {
+      "id": 9,
+      "titulo": "Beabadoobee",
+      "artista": "Coffee",
+      "duracion": 220,
+      "genero": "Balada/Alternativa",
+      "portada":"https://www.dodmagazine.es/wp-content/uploads/2023/02/beabadoobee-2023-1200x840.jpg",
+      "votos": 0,
+      "yaVotado": false
+    },
+    {
+      "id": 10,
+      "titulo": "No.1 Party Anthem",
+      "artista": "Artic Monkeys",
+      "duracion": 230,
+      "genero": "Balada/Alternativa",
+      "portada":"https://www.rockaxis.com/rxidashboard/wisi_photos/1677593975_am15%20(Zackery%20MIchael).jpeg",
+      "votos": 0,
+      "yaVotado": false
+    },
+    {
+      "id": 11,
+      "titulo": "Die whit a Smile",
+      "artista": "Lady Gaga ft Bruno Mars",
+      "duracion": 210,
+      "genero": "Balada/Pop",
+      "portada":"https://upload.wikimedia.org/wikipedia/en/thumb/1/12/Lady_Gaga_and_Bruno_Mars_-_Die_with_a_Smile.png/250px-Lady_Gaga_and_Bruno_Mars_-_Die_with_a_Smile.png",
+      "votos": 0,
+      "yaVotado": false
+    },
+    {
+      "id": 12,
+      "titulo": "Blue",
+      "artista": "SoYung Kai",
+      "duracion": 188,
+      "genero": "Balada/Pop/Jazz",
+      "portada":"https://images.genius.com/96fab843dc59f3be9ec6e577de8552fa.1000x1000x1.png",
+      "votos": 0,
+      "yaVotado": false
+    }
+  ]
+  
